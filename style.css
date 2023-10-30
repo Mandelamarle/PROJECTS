@@ -1,0 +1,283 @@
+/****************
+-----Color-------
+#f8f8f8f8
+#
+#
+            DESIGNED BY JOEBLACK170:
+
+ ____________
+|________   |     
+         |  |       
+        |  |    
+        |  |
+        |  |
+       |  |
+ _____|  |
+|_______|
+     _________
+    /         \
+   |  -------  \
+   |  .     .  \
+   \  .     .  |
+   \  -------  |
+    \_________|    
+
+         __________
+        |   ___   |
+        |  |__|  |
+        |   ____|
+        |  |   ___
+        |  |__|  |
+        |_______|
+
+
+
+/*****************
+--------Defaults--
+*****************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+}
+.img-3{
+    filter: brightness(60%);
+    border-radius: 50px;
+}
+
+button{
+    color: #000;
+    margin: 2em;
+    font-size: 20px;
+    width: 50%;
+}
+span{
+    color: red;
+}
+/********************
+-----Constant--------
+********************/
+body{
+    /**background-color: #06191d;**/
+    background-image: url(img-7.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+ }
+ 
+header{
+    
+    color: #f8eeec;
+
+}
+.first-container{
+    width: 95%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+.second-second-container{
+display: flex;
+justify-content:space-between;
+}
+
+.img-3{
+    width: 100%;
+    height: 810px;
+}
+
+/**************
+------menu-----
+**************/
+.menu{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar-1, .bar-2, .bar-3{
+    width: 35px;
+    height: 5px;
+    background-color: #faf5ef;
+    margin: 6px 2em 0;
+    transition: 0.4s;
+    display: none;
+}
+.change .bar-1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar-2{
+    opacity: 0;
+}
+.change .bar-3{
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+/**********************
+--END OF MENU HAMBUGER--
+**********************/
+
+
+/**********************
+-------Typography------
+***********************/
+
+.nav-ul{
+display: flex;
+}
+
+.nav-li{
+margin-left: 2em;
+list-style-type: none;
+font-size: 1.3rem;
+font-weight: 600;
+transition: all .5s ease-in-out;
+padding: .3em 0;
+}
+
+.nav-li:hover{
+   transform: scale(1.2);
+   color: #faf5ef;
+   
+}
+
+
+.nav-a{
+text-decoration: none;
+color: #faf5ef;
+padding: .2em 0;
+}
+.nav-a:hover,
+.nav-a:focus{
+    color: #faf5ef;
+    font-weight: 600;
+}
+
+.underline{
+    color: #faf5ef;
+    font-weight: 300;
+    border-bottom: 2px solid #faf5ef;
+}
+.underline:hover{
+    color: #faf5ef;
+    transform: scale(1);
+    font-weight: 300;
+  
+  
+}
+.first-title{
+    width: 246px;
+    overflow: hidden;
+}
+.first-title .first-span{
+    font-weight: 600;
+    font-size: 30px;
+    color: red;
+}
+
+.first-title .text{
+    position: relative;
+    color: #fbfcfa;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.secondd-container{
+    width: 60%;
+    padding: 1.8em;
+}
+
+.second-container{
+ width: 39%;
+ z-index: -1;
+}
+
+.first-pp{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fbfcfa;
+    margin-bottom: 1.2em;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-bottom: 1em;
+    margin-top: .5em;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.first-h1{
+    color: #fbfcfa;
+    font-size: 50px;
+    font-weight: 1000;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    padding-top: 1.8em;
+    margin-top: 1.2em;
+}
+.text.second-text:before{
+  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#000;
+    border-left: 2px solid #fff9e3;
+    animation: animate 4s steps(12) infinite;
+    
+
+}
+/****** BUTTONS *********
+******BUTTONS***********/
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.btn{
+    margin: 0;
+    padding: 0;
+}
+button{
+
+    font-size: 22px;
+    width: 150px;
+    padding: .3em;
+    border-radius: 50px;
+
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+/******************
+----Animation---@Keyframes-----
+*******************/
+
+
+
+
+
+/******************
+-----@Media Queries
+******************/
+@media (max-width: 768x){
+nav{
+    flex-direction: column;
+}
+}
