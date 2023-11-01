@@ -48,10 +48,14 @@
 }
 
 button{
-    color: #000;
+    color: #fff;
+    background-color: transparent;
+    border: 4px solid #fff;
     margin: 2em;
+    font-weight: 600;
     font-size: 20px;
     width: 50%;
+    transition: all .5s ease-in-out;
 }
 span{
     color: red;
@@ -65,7 +69,7 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    bgga mandela ackground-repeat: no-repeat;
     background-blend-mode: multiply;
  }
  
@@ -108,8 +112,7 @@ justify-content:space-between;
     background-color: #faf5ef;
     margin: 6px 2em 0;
     transition: 0.4s;
-    display: none;
-}
+ }
 .change .bar-1 {
     transform: translate(0, 11px) rotate(-45deg);
 }
@@ -148,7 +151,10 @@ padding: .3em 0;
    
 }
 
-
+button:hover{
+    transform: scale(1.2);
+    color: #faf5ef;
+}
 .nav-a{
 text-decoration: none;
 color: #faf5ef;
