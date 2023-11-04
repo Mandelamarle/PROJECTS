@@ -36,175 +36,160 @@
 --------Defaults--
 *****************/
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'montserrat', sans-serif;
-    }
-.img-3{
-    filter: brightness(60%);
-    border-radius: 50px;
-}
-
-button{
-    color: #fff;
-    background-color: transparent;
-    border: 4px solid;
-    margin: 2em;
-    font-weight: 600;
-    font-size: 20px;
-    width: 50%;
-    transition: all .5s ease-in-out;
-}
-span{
-    color: red;
-}
-/********************
------Constant--------
-********************/
-body{
-    /**background-color: #06191d;**/
-    background-image: url(img-7.webp);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    bgga mandela ackground-repeat: no-repeat;
-    background-blend-mode: multiply;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'montserrat', sans-serif;
  }
- 
-header{
-    
-    color: #f8eeec;
+.img-3{
+        filter: brightness(60%);
+        border-radius: 50px;
+ }
 
-}
-.first-container{
+    button{
+        color: #fff;
+        background-color: transparent;
+        border: 4px solid;
+        margin: 2em;
+        font-weight: 600;
+        font-size: 20px;
+        width: 50%;
+        transition: all .5s ease-in-out;
+    }
+    span{
+        color: red;
+    }
+    /********************
+    -----Constant--------
+    ********************/
+    body{
+        /**background-color: #06191d;**/
+        background-image: url(img-7.webp);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+    }
+    
+    .first-container{
     width: 95%;
     max-width: 1350px;
     margin: 0 auto;
-}
-.container-nav{
+    }
+
+    .container-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5em;
-}
-.second-second-container{
-display: flex;
-justify-content:space-between;
-}
+    }
+    
+    .second-second-container{
+    display: flex;
+    justify-content:space-between;
+    }
 
-.img-3{
+    .img-3{
     width: 100%;
     height: 810px;
-}
+    }
 
-/**************
-------menu-----
-**************/
-.menu{
+    /**************
+    ------menu-----
+    **************/
+    .menu{
     display: inline-block;
     cursor: pointer;
-}
-.bar-1, .bar-2, .bar-3{
+    }
+    .bar-1, .bar-2, .bar-3{
     width: 35px;
     height: 5px;
     background-color: #faf5ef;
     margin: 6px 2em 0;
     transition: 0.4s;
- }
-.change .bar-1 {
+    }
+    .change .bar-1 {
     transform: translate(0, 11px) rotate(-45deg);
-}
-.change .bar-2{
+    }
+    .change .bar-2{
     opacity: 0;
-}
-.change .bar-3{
+    }
+    .change .bar-3{
     transform: translate(0, -11px) rotate(45deg);
-}
+    }
 
-/**********************
---END OF MENU HAMBUGER--
-**********************/
+    /**********************
+    --END OF MENU HAMBUGER--
+    **********************/
 
 
-/**********************
--------Typography------
-***********************/
+    /**********************
+    -------Typography------
+    ***********************/
 
-.nav-ul{
-display: flex;
-}
+    .nav-ul{
+    display: flex;
+    }
 
-.nav-li{
-margin-left: 2em;
-list-style-type: none;
-font-size: 1.3rem;
-font-weight: 600;
-transition: all .5s ease-in-out;
-padding: .3em 0;
-}
+    .nav-li{
+    margin-left: 2em;
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    transition: all .6s ease-in-out;
+    padding: .3em 0;
+    }
 
-.nav-li:hover{
-   transform: scale(1.2);
-   color: #faf5ef;
-   
-}
-
-button:hover{
+    .nav-li:hover{
     transform: scale(1.2);
-    color: #faf5ef;
-}
-.nav-a{
-text-decoration: none;
-color: #faf5ef;
-padding: .2em 0;
-}
-.nav-a:hover,
-.nav-a:focus{
-    color: #faf5ef;
     font-weight: 600;
-}
-
-.underline{
+    }    
+    .underline{
+        border-bottom: 2px solid #faf5ef;
+    }
+    .underline:hover{
+        transform: scale(1);
+        font-weight: 300;
+    }
+    .nav-a{
+    text-decoration: none;
+    padding: .2em 0;
     color: #faf5ef;
-    font-weight: 300;
-    border-bottom: 2px solid #faf5ef;
-}
-.underline:hover{
-    color: #faf5ef;
-    transform: scale(1);
-    font-weight: 300;
-  
-  
-}
-.first-title{
+    }
+    button:hover{
+        transform: scale(1.2);
+        /**color: #faf5ef;**/
+        }
+        
+    .first-title{
     width: 244px;
     overflow: hidden;
-}
-.first-title .first-span{
+    }
+    .first-title .first-span{
     font-weight: 600;
     font-size: 30px;
     color: red;
-}
+    }
 
-.first-title .text{
+    .first-title .text{
     position: relative;
     color: #fbfcfa;
     font-size: 30px;
     font-weight: 600;
-}
+    }
 
-.secondd-container{
+    .secondd-container{
     width: 60%;
     padding: 1.8em;
-}
+    }
 
-.second-container{
- width: 39%;
- z-index: -1;
-}
+    .second-container{
+    width: 39%;
+    z-index: -1;
+    }
 
-.first-pp{
+    .first-pp{
     font-weight: 400;
     font-size: 18px;
     color: #fbfcfa;
@@ -215,9 +200,9 @@ padding: .2em 0;
     margin-top: .5em;
     width: 100%;
     text-transform: uppercase;
-}
+    }
 
-.first-h1{
+    .first-h1{
     color: #fbfcfa;
     font-size: 50px;
     font-weight: 1000;
@@ -225,9 +210,8 @@ padding: .2em 0;
     padding-right: 1.8em;
     padding-top: 1.8em;
     margin-top: 1.2em;
-}
-.text.second-text:before{
-  
+    }
+    .text.second-text:before{
     content: '';
     position: absolute;
     top: 0;
@@ -237,52 +221,52 @@ padding: .2em 0;
     background-color:#000;
     border-left: 2px solid #fff9e3;
     animation: animate 4s steps(12) infinite;
-    
 
-}
-/****** BUTTONS *********
-******BUTTONS***********/
-.btns{
+
+    }
+    /****** BUTTONS *********
+    ******BUTTONS***********/
+    .btns{
     display: flex;
     justify-content: space-evenly;
 
-}
+    }
 
-.btn{
+    .btn{
     margin: 0;
     padding: 0;
-}
-button{
+    }
+    button{
 
     font-size: 22px;
     width: 150px;
     padding: .3em;
     border-radius: 50px;
 
-}
-@keyframes animate{
+    }
+    @keyframes animate{
     40%, 60%{
-        left: 100%;
+    left: 100%;
     }
     100%{
-        left: 0%;
+    left: 0%;
     }
-}
+    }
 
 
-/******************
-----Animation---@Keyframes-----
-*******************/
+    /******************
+    ----Animation---@Keyframes-----
+    *******************/
 
 
 
 
 
-/******************
------@Media Queries
-******************/
-@media (max-width: 768x){
-nav{
+    /******************
+    -----@Media Queries
+    ******************/
+    @media (max-width: 768x){
+    nav{
     flex-direction: column;
-}
-}
+    }
+    }
