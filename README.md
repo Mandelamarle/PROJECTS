@@ -1,2 +1,3 @@
 # PROJECTS
-Simple But Dope Codes For your projects
+Simple But Dope  Hex Color codes For your projects...
+
