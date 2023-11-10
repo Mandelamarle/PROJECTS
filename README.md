@@ -8,4 +8,5 @@ Simple But Dope  Hex Color codes For your projects...
 #2ecc40 green
 #396ea5 blue
 #a52a2a brown
+#f8f8f8
 
