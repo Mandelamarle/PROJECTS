@@ -6,7 +6,6 @@ Simple But Dope  Hex Color codes For your projects...
 #ff781c orange
 #ffff00 yellow
 #2ecc40 green
-#396ea5 blue
 #a52a2a brown
 #f8f8f8
 
