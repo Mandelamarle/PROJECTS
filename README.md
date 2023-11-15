@@ -9,6 +9,6 @@ Simple But Dope  Hex Color codes For your projects...
 #2ecc40 green
 #a52a2a brown
 #f8f8f8
-=======\
+=======
 Simple Portfolio using Html, Css and Javascript
 
