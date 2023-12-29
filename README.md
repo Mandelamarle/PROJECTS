@@ -1,6 +1,6 @@
 # PROJECTS
 <<<<<<< HEAD
-Simple But Dope  Hex Color codes For your projects...
+Simple But Dope  Hex Color codes For your projects....
 #000 black
 #fff white
 #f00 red
