@@ -14,6 +14,6 @@ Simple Portfolio using Html, Css and Javascript
 <<<<<<< HEAD
 ....
 =======
-..
+.
 >>>>>>> 6dfa41e1d608c85f95cb914c40995019dcc687f8
 
