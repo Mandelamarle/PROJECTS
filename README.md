@@ -1,4 +1,5 @@
 # PROJECTS
+Simple codes to ammend in your projects inorder to save time.
 <<<<<<< HEAD
 Simple But Dope  Hex Color codes For your projects..
 #000 black
