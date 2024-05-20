@@ -1,7 +1,7 @@
 # PROJECTS
 Simple codes to ammend in your projects and not repeat yourself inorder to save time.
 <<<<<< HEAD
-Simple But Dope  Hex Color codes For your projects..
+Simple But Dope  Hex Color codes For your projects.
 #000 black
 #fff white
 #f00 red
